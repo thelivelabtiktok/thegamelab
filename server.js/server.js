@@ -49,4 +49,4 @@ const server = http.createServer((req, res) => {
   res.end("Not found");
 });
 
-server.listen(process.env.PORT || 3000);
+server.listen(process.env.PORT || 3000, "0.0.0.0");
